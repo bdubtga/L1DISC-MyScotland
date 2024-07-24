@@ -182,6 +182,28 @@ export default function Home() {
                 >
                     <h3 className="text-4xl font-bold">BagPipes</h3>
                 </div>
+                <div
+                    style={{
+                        backgroundImage: 'url("/images/haggis.jpg")',
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                    }}
+                    className="flex flex-col items-center justify-end p-10"
+                >
+                    <h3 className="text-4xl font-bold">Haggis</h3>
+                </div>
+                <div
+                    style={{
+                        backgroundImage: 'url("/images/kilt.jpg")',
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                    }}
+                    className="flex flex-col items-center justify-end p-10"
+                >
+                    <h3 className="text-4xl font-bold">Kilt</h3>
+                </div>
             </div>
         </section>
     );
